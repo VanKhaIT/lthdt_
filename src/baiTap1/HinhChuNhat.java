@@ -43,12 +43,15 @@ public HinhChuNhat(double d, double r) {
 public HinhChuNhat() {
 	
 }
+
 public static void main(String[] args) {
 	HinhChuNhat hcn = new HinhChuNhat();
+	
 	// cap nhat cung ham tao
 	HinhChuNhat hcnc = new HinhChuNhat(7,3);
 	System.out.println("Dien tich: "+ hcnc.getDienTich());
 	System.out.println("Chu vi : "+ hcnc.getChuVi());
+	
 	// Nhap tu ban phim
 	Scanner sc = new Scanner(System.in);
 	System.out.println("Nhap chieu dai: ");
@@ -67,3 +70,4 @@ public static void main(String[] args) {
 }
 
 }
+
